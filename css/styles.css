@@ -254,6 +254,44 @@ img {
   font-size: 16px;
   margin-top: 10px;
 }
+.regular-client {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.client-list {
+  display: flex;
+  gap: 30px;
+}
+.client-item {
+  width: calc((100% - 150px) / 6);
+  height: 92px;
+}
+.client-soc-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #afb1b8;
+  border-radius: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+.client-soc-icon {
+  fill: #afb1b8;
+}
+.client-soc-link:hover,
+.client-soc-link:focus {
+  border-color: var(--third-color);
+}
+.client-soc-link:hover .client-soc-icon,
+.client-soc-link:focus .client-soc-icon {
+  fill: var(--third-color);
+}
+
 .fooret .logo {
   margin-right: 0;
 }
