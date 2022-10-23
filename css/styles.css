@@ -128,7 +128,10 @@ img {
 .header-container {
   display: flex;
 }
-
+.mail-icon,
+.tel-icon {
+  margin-right: 10px;
+}
 /* герой */
 .hero {
   background-color: var(--color-fon);
