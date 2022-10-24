@@ -131,7 +131,9 @@ img {
 .mail-icon,
 .tel-icon {
   margin-right: 10px;
+  vertical-align: middle;
 }
+
 /* герой */
 .hero {
   background-color: var(--color-fon);
@@ -219,6 +221,7 @@ img {
 
 /* work */
 /* команда розробників*/
+
 .command {
   background: #f5f4fa;
 }
@@ -231,6 +234,30 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
+.list-join-team {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.icon-join-team {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--write-color);
+  fill: #afb1b8;
+  justify-content: center;
+  align-content: center;
+  background-size: 20px;
+}
+
+.icon-join-team:focus,
+.icon-join-team:hover {
+  background-color: var(--third-color);
+  fill: var(--write-color);
+}
+
 .command-text {
   padding-top: 30px;
   padding-bottom: 30px;
