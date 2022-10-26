@@ -250,7 +250,7 @@ img {
 
 .footer .text-title {
   color: var(--write-color);
-
+  text-transform: uppercase;
   font-size: 14px;
   line-height: 1.14;
   margin-bottom: 20px;
@@ -360,7 +360,8 @@ img {
 }
 
 .footer .logo {
-  margin-right: 0;
+  display: block;
+  margin-bottom: 20px;
 }
 .footer {
   background-color: var(--color-fon);
@@ -382,6 +383,14 @@ img {
   text-decoration: none;
   line-height: 1.71;
   font-style: normal;
+}
+
+.contact {
+  display: flex;
+}
+.footer-social-cont {
+  margin-top: 29px;
+  margin-left: 40px;
 }
 
 /* Portfolio */
@@ -419,6 +428,17 @@ img {
 
 .adr-footer {
   margin-top: 9px;
+}
+
+.footer .icon-join-team {
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #afb1b8;
+}
+
+.footer .icon-join-team:focus,
+.footer .icon-join-team:hover {
+  background-color: var(--third-color);
+  fill: var(--write-color);
 }
 
 /* portfolio */

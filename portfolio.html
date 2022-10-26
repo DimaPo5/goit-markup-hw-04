@@ -35,8 +35,20 @@
           </ul>
         </nav>
         <ul class="nav-contact list">
-          <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+          <li>
+            <svg class="mail-icon" width="16" height="12">
+              <use href="./image/icons.svg#icon-mail"></use>
+            </svg>
+            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="link">
+              <svg class="tel-icon" width="10" height="16">
+                <use href="./image/icons.svg#icon-tel"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
         </ul>
       </div>
     </header>
@@ -119,11 +131,12 @@
         </div>
       </section>
     </main>
-    <footer class="fooret">
-      <div class="container">
-        <a href="./index.html" class="logo"> Web<span class="footer-logo">Studio</span></a>
-        <!-- адреса і контакти -->
+    <footer class="footer">
+      <div class="container contact">
         <div class="adr-container">
+          <a class="logo" href="./index.html"> Web<span class="footer-logo">Studio</span></a>
+          <!-- адреса і контакти -->
+
           <address>
             <ul class="list">
               <li>
@@ -135,6 +148,40 @@
               <li class="adr-footer"><a href="tel:+380961111111" class="footer-cont">+38 096 111 11 11</a></li>
             </ul>
           </address>
+        </div>
+
+        <div class="footer-social-cont">
+          <h3 class="text-title">приєднуйтесь</h3>
+          <ul class="list join-team">
+            <li class="social-box">
+              <a href="" class="icon-join-team">
+                <svg class="social-icon" width="20" height="20">
+                  <use xlink:href="./image/icons.svg#icon-insta"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-box">
+              <a href="" class="icon-join-team">
+                <svg class="social-icon" width="20" height="20">
+                  <use xlink:href="./image/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-box">
+              <a href="" class="icon-join-team">
+                <svg class="social-icon" width="20" height="20">
+                  <use xlink:href="./image/icons.svg#icon-faceboock"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-box">
+              <a href="" class="icon-join-team">
+                <svg class="social-icon" width="20" height="20">
+                  <use xlink:href="./image/icons.svg#icon-in"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
