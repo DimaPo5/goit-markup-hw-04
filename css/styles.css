@@ -132,6 +132,7 @@ img {
 .tel-icon {
   margin-right: 10px;
   vertical-align: middle;
+  fill: currentColor;
 }
 
 /* герой */
@@ -144,9 +145,10 @@ img {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/bg-hero.jpg);
 
   max-width: 1600px;
-
   margin: 0 auto;
+  background-position: center;
 }
+
 .hero-container {
   max-width: 696px;
   margin-left: auto;
@@ -275,6 +277,7 @@ img {
   display: flex;
   gap: 10px;
   justify-content: center;
+  margin-top: 16px;
 }
 .icon-join-team {
   display: flex;
@@ -320,13 +323,6 @@ img {
   text-align: center;
   font-size: 16px;
   margin-top: 10px;
-}
-.regular-client {
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
 }
 
 .client-list {
@@ -387,10 +383,10 @@ img {
 
 .contact {
   display: flex;
+  align-items: baseline;
 }
 .footer-social-cont {
-  margin-top: 29px;
-  margin-left: 40px;
+  margin-left: 70px;
 }
 
 /* Portfolio */
@@ -405,9 +401,16 @@ img {
   background-color: #f5f4fa;
   cursor: pointer;
 }
-.filter-btn:hover,
+.filter-btn:hover {
+  color: var(--write-color);
+  background-color: var(#2196f3);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 .filter-btn:focus {
   color: var(--write-color);
+  background-color: var(--third-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .content-title {
@@ -422,9 +425,6 @@ img {
   line-height: 1.87;
   color: var(--main-color);
 }
-.adr-container {
-  margin-top: 20px;
-}
 
 .adr-footer {
   margin-top: 9px;
@@ -438,7 +438,6 @@ img {
 .footer .icon-join-team:focus,
 .footer .icon-join-team:hover {
   background-color: var(--third-color);
-  fill: var(--write-color);
 }
 
 /* portfolio */
@@ -504,6 +503,10 @@ img {
 }
 .project-items {
   border: 1px solid #eeeeee;
-  margin: left 30px;
+
   flex-basis: calc((100% - 60px) / 3);
+}
+.project-items:hover,
+.project-items:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
