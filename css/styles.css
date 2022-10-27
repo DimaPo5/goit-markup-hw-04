@@ -197,7 +197,7 @@ img {
   flex-basis: calc((100% - 90px) / 4);
 }
 
-.fiature-item .advantages::before {
+/* .fiature-item .advantages::before {
   content: '';
   display: block;
   height: 120px;
@@ -208,9 +208,24 @@ img {
   background-position: center;
   background-color: #f5f4fa;
   border-radius: 4px;
+} */
+
+.icon-feature {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
 }
 
-.advantages-icon-1::before {
+.svg-feature {
+  width: 70px;
+  height: 70px;
+}
+
+/* .advantages-icon-1::before {
   background-image: url(../image/antenna.svg);
 }
 .advantages-icon-2::before {
@@ -223,7 +238,7 @@ img {
 
 .advantages-icon-4::before {
   background-image: url(../image/astronaut.svg);
-}
+} */
 
 .fiature {
   padding-bottom: 0;
